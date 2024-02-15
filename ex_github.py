@@ -12,4 +12,19 @@ class calculadora:
     self.__primeiro_numero = primeiro_numero
     self.__segundo_numero = segundo_numero
 
+  def soma(self):
+    return self.__primeiro_numero + self.__segundo_numero
+
+  def multiplicacao(self):
+    return self.__primeiro_numero * self.__segundo_numero
+
+  def divisao(self):
+    return self.__primeiro_numero / self.__segundo_numero
+
 cal = calculadora(5, 4)
+
+cal.soma()
+
+cal.multiplicacao()
+
+cal.divisao()
