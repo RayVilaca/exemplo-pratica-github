@@ -27,6 +27,9 @@ class calculadora:
   def potenciacao(self):
     return self.__primeiro_numero ** self.__segundo_numero
 
+  def radiciacao(self):
+    return self.__primeiro_numero ** (1 /self.__segundo_numero)
+
 cal = calculadora(5, 4)
 
 cal.soma()
@@ -38,3 +41,6 @@ cal.divisao()
 cal.subtracao()
 
 cal.potenciacao()
+
+cal.radiciacao()
+
