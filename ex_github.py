@@ -21,6 +21,12 @@ class calculadora:
   def divisao(self):
     return self.__primeiro_numero / self.__segundo_numero
 
+  def subtracao(self):
+    return self.__primeiro_numero - self.__segundo_numero
+
+  def potenciacao(self):
+    return self.__primeiro_numero ** self.__segundo_numero
+
 cal = calculadora(5, 4)
 
 cal.soma()
@@ -28,3 +34,7 @@ cal.soma()
 cal.multiplicacao()
 
 cal.divisao()
+
+cal.subtracao()
+
+cal.potenciacao()
